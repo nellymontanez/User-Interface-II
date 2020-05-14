@@ -142,11 +142,13 @@ table {
   #section2 .images1 {
     display:flex;
     justify-content: space-between;
+    padding: 2%;
   }
   
   #section3 .images2 {
     display:flex;
     justify-content: space-between;
+    padding: 2%;
   }
   
   ul {
