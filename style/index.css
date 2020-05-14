@@ -47,76 +47,134 @@ table {
 	border-spacing: 0;
 }
 
-*{
-    border: 2px solid black;
-}
-
-header {
-    background-color: #E9DAE7;
-
-}
-header h1 {
-    color: black;
-    font-size: 35px;
-    font-family: Coustard, serif;
-    /* display: flex; */
-    /* justify-content: flex-start; */
-    /* padding: 20px; */
-}
-
-nav {
-    /* background-color: #E094D5; */
-    text-decoration: none;
-    font-size:15px;
-    font-family: Coustard, serif;
-    display: flex;
-    /* justify-content: flex-start; */
-    margin: auto;
-    /* width: 30%; */
-}
-
-a:hover {
-    color: white;
-}
-
-h2 {
-    border: 3px solid black;
-    color: black;
-    font-size: 18px;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  /*    border: 2px solid red;  */
+  }
+  
+  h1 {
+    background-color: pink;
+    font-size: 40px;
+    padding: 1%;
+  }
+  
+  header nav {
+    background-color: pink;
+    width: 100%;
+    font-size: 20px;
+    border: black;
     display: inline-block;
-    padding: 10px;
-    margin: 10px 20px;
-    width: 120px; 
-    display: flex;
-    }
-button {
-    border: 3px solid black; 
-    font-size: 13px;
-    padding: 10px; 
-    margin: 10px 20px;
-}
-button:hover {
-    background-color: #E9DAE7;
-}
-
-/* .intro-bio{
-    border: 3px solid black;
-    font-size: 16px;
-    padding: 10px;
-    margin: 10px 20px 10px 20px;
-    width: 200px;
-    height: 160px;
-} */
-
-.minibio {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-right: 40px;
-}
-
-img {
-    border-radius: 20px;
-    display: flex;
+  }
+  .nav-bar {
+    display: inline-block;
+    background-color: white;
+    border: 2px solid black;
+  }
+  
+  .home {
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  .about {
+    /*    border: 2px solid black;  */
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+  }
+  
+  .contact {
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+  }
+  .projects {
+    /*border: 1px solid black;  */
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+  }
+  
+  a:hover {
+    background-color: lavender;
+    color: pink;
+  }
+  /*first <section 1 img/name/button/bio> style below  */
     
-}
+
+  
+  
+  h2 {
+    font-size: 25px;
+    text-align: center;
+    margin: 2% 2% 2% 2%
+  }
+  
+  
+  button { 
+     font-size: 20px; 
+    margin: 2% 2% 2% 2%
+  }
+  
+  #section1 .text {
+    padding:4%;
+    text-align:left;
+    width:50%;
+    display: flex;
+    flex-direction: column; 
+  }
+  button {
+     width: 35%;
+     text-align: left;
+     letter-spacing: 1px;
+  }
+     #section1 {   
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    }
+  #section2 .images1 {
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  #section3 .images2 {
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  ul {
+    list-style:none;
+    display:flex;
+    justify-content: space-around;
+    padding: 2%
+  }
+  
+  footer h2 {
+    font-size: 18px;
+    text-align: center;
+    padding: 4%;
+  }
+  
+  footer {
+    background-color: pink;
+  }
+  footer button {
+  display: flex;
+  text-align: center;
+  font-size: 15px;
+  margin: 0 auto;
+  width: 11%;
+  letter-spacing: 1px; 
+  background-color: grey;  
+  }
+  
+
+
+
