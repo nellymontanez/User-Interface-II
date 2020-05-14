@@ -47,24 +47,32 @@ table {
 	border-spacing: 0;
 }
 
-.container h1 {
+*{
+    border: 2px solid black;
+}
+
+header {
+    background-color: #E9DAE7;
+
+}
+header h1 {
     color: black;
     font-size: 35px;
     font-family: Coustard, serif;
-    background-color: #E9DAE7;
-    display: flex;
-    justify-content: flex-start;
-    padding: 60px;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* padding: 20px; */
 }
 
-.nav-bar{
-    background-color: #E094D5;
+nav {
+    /* background-color: #E094D5; */
     text-decoration: none;
     font-size:15px;
     font-family: Coustard, serif;
     display: flex;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     margin: auto;
+    /* width: 30%; */
 }
 
 a:hover {
@@ -78,32 +86,37 @@ h2 {
     display: inline-block;
     padding: 10px;
     margin: 10px 20px;
-    width: 120px;
+    width: 120px; 
     display: flex;
     }
 button {
-    border: 3px solid black;
+    border: 3px solid black; 
     font-size: 13px;
     padding: 10px; 
     margin: 10px 20px;
-    
 }
 button:hover {
     background-color: #E9DAE7;
 }
 
-.intro-bio{
+/* .intro-bio{
     border: 3px solid black;
     font-size: 16px;
     padding: 10px;
     margin: 10px 20px 10px 20px;
     width: 200px;
     height: 160px;
-}
+} */
 
 .minibio {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     margin-right: 40px;
+}
+
+img {
+    border-radius: 20px;
+    display: flex;
+    
 }
