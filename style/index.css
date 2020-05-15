@@ -51,12 +51,12 @@ body {
   background-image: url(https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80;)
 }
 
-/* { 
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
-      border: 2px solid red;  */
+  
+    /* box-sizing: border-box; */
+    /* padding: 0; */
+    /* margin: 0; */
+    /* max-width: 100%; */
+      /* border: 2px solid red;   */
   
   
   header {
@@ -95,36 +95,55 @@ body {
 
   
   
-  h2 {
-    font-size: 27px;
-    text-align: left;
+  section {
+    width: 100%;
+    height: 50vh;
+    padding: 0.5%;
+  }
+  section { 
+    display: flex;
+    justify-content: space-between;
+  }
+  section {
+    display: flex;
+    align-items: center;
+  }
+  
+  img {
+    width:28%;
+    border: 1px solid black;
+    border-radius: 3%;
+  }
+  
+  .section1 {
+    width: 30%;
+    height: 30vh;
+    padding: 10%;
     
   }
   
-  
-  button { 
-     font-size: 20px; 
-    margin: 2% 2% 2% 2%
+  h2 {
+    font-size: 2rem;
+    padding: 1%;
   }
   
-  #section1 .text {
-    padding:4%;
-    text-align:left;
-    width:50%;
-    display: flex;
-    flex-direction: column; 
-  }
   button {
-     width: 20%;
-     text-align: left;
-     letter-spacing: 1px;
+    border :1px solid black;
+    padding: 1vh;
+    
+    background-color:#BCACBA;
   }
-     #section1 {   
-    display: flex;
-    justify-content: space-between;
-    padding: 2%;
+  
+  button:hover {
+    background-color: white;
    
-    }
+  }
+  
+  p { 
+  padding: 1%;
+  font-size: 1.5 rem;
+  }
+  /* Section 1 ends above this */
   #section2 .images1 {
     display:flex;
     justify-content: space-between;
